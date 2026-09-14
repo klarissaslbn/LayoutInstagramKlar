@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Foto profil -->
+
+    <ImageView
+        android:id="@+id/photoImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/profile"
+        android:scaleType="centerCrop"
+        android:contentDescription="Foto profil"/>
+
+
+    <!-- Nama akun -->
+
+    <TextView
+        android:id="@+id/photoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klarissa Dyta Silaban"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+
+    <!-- Tombol kembali -->
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
